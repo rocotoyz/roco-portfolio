@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.roco {
+   font-size: 50px;
+   font-family: 'Poppins', sans-serif; /* Updated to use Poppins */
+}
+
+.hello {
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif; /* Updated to use Poppins */
+}
+
+.role {
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif; /* Updated to use Poppins */
+
+}
+
+.rounded-circle {
+   width: 350px; /* Adjust size as needed */
+   height: 350px; /* Same height to maintain circular shape */
+}
+
+#street-view {
+   width: 100%;
+   height: 500px;
+}
+
+.pink-shadow {
+   box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3); /* Slightly pink shadow */
+}
+.rounded-circle.shadow {
+   box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3); /* Slightly pink shadow */
+}
+
+.shadow-img {
+   -webkit-box-shadow: 10px 10px 0px -3px rgba(255, 105, 180, 0.5); /* Darker pink shadow */
+   -moz-box-shadow: 10px 10px 0px -3px rgba(255, 105, 180, 0.5); /* Darker pink shadow */
+   box-shadow: 10px 10px 0px -3px rgba(255, 105, 180, 0.5); /* Darker pink shadow */
+}
+
+.rounded-img {
+   border-radius: 10px; /* Adjust the value to control the roundness */
+}
+
+
+
+
+
+
+
