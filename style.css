@@ -34,6 +34,7 @@
 }
 
 .shadow-img {
+   border-radius: 10px;
    -webkit-box-shadow: 10px 10px 0px -3px rgba(255, 105, 180, 0.5); /* Darker pink shadow */
    -moz-box-shadow: 10px 10px 0px -3px rgba(255, 105, 180, 0.5); /* Darker pink shadow */
    box-shadow: 10px 10px 0px -3px rgba(255, 105, 180, 0.5); /* Darker pink shadow */
@@ -48,6 +49,60 @@
    width: 100%; /* Make sure the images fill the width of the container */
    object-fit: cover; /* Cover ensures the image fills the container while maintaining its aspect ratio */
  }
+
+ 
+
+ .card {
+   border: none;
+   outline: none;
+ }
+
+ .card p{
+   color: gray;
+ }
+
+ .card-1 {
+   background-color: #F8E8EE;
+ }
+
+ .card-2 {
+   background-color: #F8E8EE;
+ }
+
+ .card-3 {
+   background-color: #F8E8EE;
+ }
+
+ .circle {
+   height: 70px;
+   width: 70px;
+   background-color: pink;
+   color: black;
+   padding: 12px;
+   border-radius: 50%;
+   display: inline-block;
+   margin-bottom: 20px;
+   font-size:  1.7rem;
+   transition: background-color 0.5s, color 0.5s;
+ }
+
+ .card-1:hover .circle {
+   background-color: black;
+   color: pink;
+ }
+
+ .card-2:hover .circle {
+   background-color: black;
+   color: pink;
+ }
+
+ .card-3:hover .circle {
+   background-color: black;
+   color: pink;
+ }
+
+
+
 
 
 
