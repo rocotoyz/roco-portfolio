@@ -100,6 +100,30 @@
    background-color: black;
    color: pink;
  }
+ 
+ .progress .progress-bar{
+  
+  color: black;
+
+ }
+
+ .progress-bar-pink {
+  background-color: pink;
+}
+
+.zoom-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.07); /* Adjust the scale factor as needed */
+}
+
+.parkbai {
+  width: 50px;
+  height: 50px;
+}
+
 
 
 
