@@ -47,10 +47,8 @@
 .carousel-item img {
    height: 500px; /* Set a fixed height for the images */
    width: 100%; /* Make sure the images fill the width of the container */
-   object-fit: cover; /* Cover ensures the image fills the container while maintaining its aspect ratio */
+   object-fit: fit; /* Cover ensures the image fills the container while maintaining its aspect ratio */
  }
-
- 
 
  .card {
    border: none;
@@ -123,6 +121,59 @@
   width: 50px;
   height: 50px;
 }
+
+.parkbai_content{
+text-align: justify;
+
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns images to the left */
+}
+
+.zigzag-img {
+  width: 100px; 
+  height: 100px; /* Maintain consistent size */
+}
+
+.first-img {
+  
+  margin-top: 20%;
+  margin-left: 130%; /* Adds left margin to the first image */
+  
+}
+
+.second-img {
+  margin-right: 20%; /* Adds right margin to the second image */
+  margin-left: 5%;
+  align-self: flex-end; /* Aligns the second image to the right */
+}
+
+.third-img {
+  margin-right: 37%; /* Adds right margin to the second image */
+  margin-bottom: 10px;   /* Adds some space between the images */
+  align-self: flex-end; /* Aligns the second image to the right */
+}
+
+.carousel-control-next-icon {
+  filter: invert(85%) sepia(45%) saturate(340%) hue-rotate(320deg) brightness(105%) contrast(95%);
+}
+
+.carousel-control-prev-icon {
+  filter: invert(85%) sepia(45%) saturate(340%) hue-rotate(320deg) brightness(105%) contrast(95%);
+}
+
+.mobile-img {
+margin-left: 25%;
+}
+
+
+
+
+
+
 
 
 
