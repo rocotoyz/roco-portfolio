@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+
+#themeIcon {
+  font-size: 1.5rem; /* Adjust icon size */
+  transition: color 1.3s; /* Smooth transition for color */
+}
+
+/* Optional: Add styles for icon when switch is checked (dark mode) */
+#themeToggleSwitch:checked + .form-check-label #themeIcon {
+  color: pink; /* Change icon color in dark mode */
+}
+
+/* Light mode icon color */
+[data-bs-theme="light"] #themeIcon {
+  color: pink; /* Yellow color for the sun icon in light mode */
+}
+
+/* Dark mode icon color */
+[data-bs-theme="dark"] #themeIcon {
+  color: pink; /* White color for the moon icon in dark mode */
+}
+
+
 .roco {
    font-size: 50px;
    font-family: 'Poppins', sans-serif; /* Updated to use Poppins */
