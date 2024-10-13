@@ -2,7 +2,7 @@
 
 
 #themeIcon {
-  font-size: 1.5rem; /* Adjust icon size */
+  font-size: 1.3rem; /* Adjust icon size */
   transition: color 1.3s; /* Smooth transition for color */
 }
 
@@ -189,6 +189,10 @@ text-align: justify;
 
 .mobile-img {
 margin-left: 25%;
+}
+
+.message {
+  height: 200px;
 }
 
 
