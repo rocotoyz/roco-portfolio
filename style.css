@@ -136,7 +136,7 @@
 }
 
 .zoom-effect:hover {
-  transform: scale(1.07); /* Adjust the scale factor as needed */
+  transform: scale(1.02); /* Adjust the scale factor as needed */
 }
 
 .parkbai {
@@ -194,6 +194,32 @@ margin-left: 25%;
 .message {
   height: 200px;
 }
+
+
+.optional {
+  font-size: 0.85em;
+  color: #888;
+  opacity: 70%;
+}
+
+  /* Add hover effect for social-icon */
+  .social-icon:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Optional: Change the icon color on hover */
+.social-icon:hover svg {
+
+  transform: scale(1.07); /* Adjust the scale factor as needed */
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.03);
+}
+
 
 
 
