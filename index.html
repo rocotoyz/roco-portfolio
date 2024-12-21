@@ -986,10 +986,11 @@
                                                 <div class="row text-lg-start">
                                                     <span class="optional">
                                                         <label for="company">Contact</label>
-                                                    </span>
+                                                    </span> 
                                                   
                                                     <div class="col py-2">
                                                         <div class="d-flex justify-content-between align-items-center">
+                                                           
                                                             <label class="contact py-2">
                                                                 </span>
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16"
@@ -998,13 +999,16 @@
                                                                     <path
                                                                         d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
                                                                 </svg>
-
-                                                                Resume / CV <span class="optional">Click to
-                                                                    show</span></label>
-                                                            <span class="optional py-2">Download a copy</span>
+                                                                <a href="Frontend/Assets/files/cv1.pdf" target="_blank" style="text-decoration:none; color: black;">
+                                                                Resume / CV 
+                                                                </label>
+                                                                <span class="optional">show</span>
+                                                                </a>
+                                                         
                                                         </div>
 
                                                     </div>
+
                                                     <div class="row">
                                                         <label class="contact py-2">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
@@ -1049,7 +1053,7 @@
                                                 <div class="row">
                                                  
                                                     <div class="d-flex align-items-start">
-
+                                                    <a href="https://www.facebook.com/rocotoyz" target="_blank">
                                                         <div class="d-flex justify-content-between align-items-center">
                                                             <div class="social-icon"
                                                                 style="width: 30px; height: 30px; background-color: #FFB6C1; display: flex; justify-content: center; align-items: center; border-radius: 5px;">
@@ -1062,7 +1066,9 @@
 
                                                             </div>
                                                         </div>
-
+                                                    </a>
+                                                    
+                                                    <a href="https://www.instagram.com/" target="_blank">
                                                         <div class="d-flex justify-content-between align-items-center ps-1">
 
                                                             <div class="social-icon" style="width: 30px; height: 30px; background-color: #FFB6C1; display: flex; justify-content: center; align-items: center; border-radius: 5px;">
@@ -1076,7 +1082,8 @@
                                                             </div>
 
                                                         </div>
-
+                                                    </a>
+                                                    <a href="https://x.com/home" target="_blank">
                                                         <div class="d-flex justify-content-between align-items-center ps-1">
 
                                                             <div class="social-icon" style="width: 30px; height: 30px; background-color: #FFB6C1; display: flex; justify-content: center; align-items: center; border-radius: 5px;">
@@ -1090,7 +1097,8 @@
                                                             </div>
 
                                                         </div>
-
+                                                    </a>
+                                                    <a href="https://discord.com/channels/@me" target="_blank">
                                                     <div class="d-flex justify-content-between align-items-center ps-1">
 
                                                             <div class="social-icon" style="width: 30px; height: 30px; background-color: #FFB6C1; display: flex; justify-content: center; align-items: center; border-radius: 5px;">
@@ -1104,7 +1112,8 @@
            
 
                                                     </div>
-
+                                                 </a>
+                                                 <a href="https://github.com/rocotoyz" target="_blank">
                                                      <div class="d-flex justify-content-between align-items-center ps-1">
 
                                                         <div class="social-icon" style="width: 30px; height: 30px; background-color: #FFB6C1; display: flex; justify-content: center; align-items: center; border-radius: 5px;">
@@ -1118,7 +1127,7 @@
                                                         </div>
 
                                                     </div>
-
+                                                </a>
                                                     </div>
 
                                                 </div>
@@ -1134,7 +1143,7 @@
                                                     <label for="company">
                                                         Company *</label>
 
-                                                    <div class="input-group mb-3">
+                                                    <div class="input-group mb-2">
                                                         <span class="input-group-text" id="basic-addon1"> <svg
                                                                 xmlns="http://www.w3.org/2000/svg" width="16"
                                                                 height="16" fill="#ffcccb"
@@ -1146,16 +1155,17 @@
                                                             </svg></span>
                                                         <input type="text" class="form-control company" id="company"
                                                             aria-label="company" aria-describedby="basic-addon1"
-                                                            maxlength="20">
+                                                            maxlength="20">                                                       
                                                     </div>
+                                                    <div class="company_error"></div>
+                                                  
                                                     <div class="container">
                                                         <div class="row">
                                                             <div class="col">
-                                                                <label for="fullname">Email * <span class="optional">
-                                                                        (optional)</span>
+                                                                <label for="email">Email * 
                                                                 </label>
 
-                                                                <div class="input-group mb-3">
+                                                                <div class="input-group mb-2">
                                                                     <span class="input-group-text" id="basic-addon2">
                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                             width="16" height="16" fill="#FFB6C1"
@@ -1169,19 +1179,20 @@
                                                                     <input type="text" class="form-control" id="email"
                                                                         aria-label="email"
                                                                         aria-describedby="basic-addon2"
-                                                                        placeholder="name@example.com" maxlength="20">
+                                                                        placeholder="email@example.com" maxlength="20">
                                                                 </div>
+                                                                <div class="email_error"></div>
                                                             </div>
 
                                                             <div class="col">
                                                                 <div class="row">
-                                                                    <label for="fullname">Phonenumber *
-                                                                        <span class="optional">(optional)</span>
+                                                                    <label for="Phonenumber">Phonenumber *
+                                                                        
                                                                     </label>
 
                                                                 </div>
 
-                                                                <div class="input-group mb-3">
+                                                                <div class="input-group mb-2">
                                                                     <span class="input-group-text" id="basic-addon1">
                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                             width="16" height="16" fill="#FFB6C1"
@@ -1195,25 +1206,29 @@
                                                                         aria-describedby="basic-addon1"
                                                                         placeholder="09123456789" maxlength="11">
                                                                 </div>
+                                                                <div class="phone_error"></div>
                                                             </div>
                                                         </div>
                                                     </div>
 
-                                                    <label for="fullname">Subject *</label>
-                                                    <div class="input-group mb-3">
+                                                    <label for="subject">Subject *</label>
+                                                    <div class="input-group mb-2">
                                                         <input type="text" class="form-control subject" id="subject"
                                                             placeholder="Title" aria-label="subject"
                                                             aria-describedby="basic-addon1" maxlength="20">
                                                     </div>
+                                                    <div class="subject_error"></div>
+
                                                     <label for="message">Message *</label>
                                                     <div class="input-group">
                                                         <textarea class="form-control message" id="message"
                                                             aria-label="With textarea"
                                                             placeholder="write something here..."></textarea>
                                                     </div>
+                                                    <div class="message_error"></div>
                                                     <div class="d-grid gap-2 col-6 mx-auto mt-2">
 
-                                                        <button class="btn"
+                                                        <button class="btn" 
                                                             style="--bs-btn-padding-y: .20rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; background-color: #FFB6C1; color: white;"
                                                             type="submit">
                                                         Send <i class="bi bi-send"></i>
@@ -1841,7 +1856,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init()</script>
+    
     <script>
+        //toggle switch darkmode
         const toggleSwitch = document.getElementById('themeToggleSwitch');
         const htmlElement = document.documentElement; // <html> element
         const navbar = document.querySelector('.navbar'); // Select the navbar element
@@ -1954,6 +1971,76 @@
                 // Add any custom actions you want here
             });
         });
+
+    </script>
+
+    <script>
+
+        //retrieve Email from the form
+        $(".btn").click(function() {
+    // Clear previous error messages and reset placeholders
+    $(".error").remove();
+    $("input, textarea").each(function() {
+        $(this).attr("placeholder", $(this).data("placeholder"));
+    });
+
+    var isValid = true; // Flag to track overall form validity
+
+    // Get input values
+    var company = document.getElementById('company').value.trim();
+    var email = document.getElementById('email').value.trim();
+    var phonenumber = document.getElementById('phonenumber').value.trim();
+    var subject = document.getElementById('subject').value.trim();
+    var message = document.getElementById('message').value.trim();
+
+    // Regular expressions for email and phone validation
+    var email_regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    var phone_regex = /^(09\d{9}|\+63\d{9})$/;  // Allow 09 or +63 followed by 9 digits
+
+    // Validate each field
+    if (subject === "") {
+        isValid = false;
+        $(".subject_error").after('<p class="error" style="color:red;">Subject number is required</p>');
+    }
+
+    if (company === "") {
+        isValid = false;
+        $(".company_error").after('<p class="error" style="color:red;">Company name is required</p>');
+    }
+
+    if (email === "") {
+        isValid = false;
+        $(".email_error").after('<p class="error" style="color:red;">Email is required</p>');
+    } else if (!email_regex.test(email)) {
+        isValid = false;
+        $(".email_error").after('<p class="error" style="color:red;">Please enter a valid email</p>');
+    }
+
+    if (phonenumber === "") {
+        isValid = false;
+        $(".phone_error").after('<p class="error" style="color:red;">Phone number is required</p>');
+
+    } else if (!phone_regex.test(phonenumber)) {
+        isValid = false;
+        //$("#phonenumber").after('<div class="error">Please enter a valid phone number (e.g., 09123456789 or +639123456789)</div>');
+        $(".phone_error").after('<p class="error" style="color:red;">Please enter a valid phone number (e.g., 09123456789 or +639123456789)</p>');
+    }
+
+    if (message === "") {
+        isValid = false;
+        $(".message_error").after('<p class="error" style="color:red;">Message is required</p>');
+    }
+
+   // If all fields are valid, submit the form
+    // If the form is valid, proceed with the rest of the code (e.g., AJAX)
+    if (isValid) {
+        // Example of handling the data, you can send it via AJAX, etc.
+        console.log("Form is valid. Proceed with AJAX or other operations.");
+    } else {
+        console.log("Form contains empty or invalid fields.");
+    }
+});
+
 
     </script>
 </body>
